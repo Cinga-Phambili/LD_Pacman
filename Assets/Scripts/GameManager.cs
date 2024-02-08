@@ -86,13 +86,14 @@ public class GameManager : MonoBehaviour
 
     private void ResetState()
     {
+        ResetGhostMultiplier();
+        
         for (int i = 0; i < ghosts.Length; i++)
         {
-            ghosts[i].gameObject.SetActive(true);
+            ghosts[i].ResetState();
         }
 
-        ResetGhostMultiplier();
-        pacman.gameObject.SetActive(true);
+        pacman.ResetState();
     }
 
     private void GameOver()
