@@ -14,6 +14,14 @@ public class GameManager : MonoBehaviour
     {
         NewGame();
     }
+
+    public void Update()
+    {
+        if (Input.anyKeyDown && this.lives <= 0) 
+        {
+            NewGame();
+        }
+    }
     
     public void GhostEaten(Ghost eatenGhost)
     {
@@ -26,7 +34,7 @@ public class GameManager : MonoBehaviour
         this.pacman.gameObject.SetActive(false);
         SetLives(this.lives - 1);
 
-        if (this.lives >= 0)
+        if (this.lives > 0)
         {
             Invoke(nameof(ResetState), 3.0f);
             ResetState();
