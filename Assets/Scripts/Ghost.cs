@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Ghost : MonoBehaviour
 {
+    
     [Tooltip("The amount of points the ghost is worth when eaten.")]
     public int points;
 
@@ -19,6 +20,7 @@ public class Ghost : MonoBehaviour
     public Transform target;
 
     private GameManager gameManager;
+    
 
     public void Awake()
     {
