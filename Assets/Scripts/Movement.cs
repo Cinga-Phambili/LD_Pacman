@@ -73,7 +73,7 @@ public class Movement : MonoBehaviour
 
     public bool Occupied(Vector2 direction)
     {
-        var hit = Physics2D.BoxCast(transform.position, Vector2.zero * footprint, 0f, direction, 1.5f,obstacleLayer);
-        return hit.collider != null;
+        var hit = Physics2D.BoxCast(transform.position, Vector2.one * footprint, 0f, direction, 1f,obstacleLayer);
+        return (hit.collider != null);
     }
 }
