@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using Vector2 = System.Numerics.Vector2;
+
 
 public class GhostFrightened : GhostBehavior
 {
@@ -74,6 +74,30 @@ public class GhostFrightened : GhostBehavior
             if (this.enabled)
             {
                 Eaten();
+            }
+        }
+    }
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        var node = other.GetComponent<Node>();
+
+        if (node != null && this.enabled)
+        {
+            var direction = Vector2.zero;
+            var maxDistance = float.MinValue;
+
+            foreach (Vector2 availableDirection in node.availableDirections)
+            {
+                Vector3 newPosition = this.transform.position + new Vector3(availableDirection.x, availableDirection.y, 0.0f);
+                float distance = (this.ghost.target.position - newPosition).sqrMagnitude;
+
+                if (distance > maxDistance)
+                {
+                    direction = availableDirection;
+                    maxDistance = distance;
+                }
+
+                this.ghost.movementController.SetDirection(direction);
             }
         }
     }

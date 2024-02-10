@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Ghost : MonoBehaviour
@@ -9,7 +6,7 @@ public class Ghost : MonoBehaviour
     [Tooltip("The amount of points the ghost is worth when eaten.")]
     public int points;
 
-    public Movement movementController { get; private set; }
+    public Movement movementController;
 
     public GhostHome homeBehavior { get; private set; }
     public GhostScatter scatterBehaviour { get; private set; }
@@ -24,7 +21,8 @@ public class Ghost : MonoBehaviour
 
     public void Awake()
     {
-        this.movementController = GetComponent<Movement>();
+        if (movementController == null)
+            this.movementController = GetComponent<Movement>();
 
         this.homeBehavior = GetComponent<GhostHome>();
         this.scatterBehaviour = GetComponent<GhostScatter>();
