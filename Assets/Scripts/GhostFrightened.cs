@@ -32,11 +32,11 @@ public class GhostFrightened : GhostBehavior
 
     private void Flash()
     {
-        if (!this.eaten)
+        /*if (!this.eaten)
         {
             frightenedBody.gameObject.SetActive(false);
             flashingBody.gameObject.SetActive(true);
-        }
+        }*/
     }
 
     private void Eaten()
