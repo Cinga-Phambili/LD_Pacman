@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ddb4fdba66bef314ba74b5bc34c181cd
+guid: 8ec392f087cb51940b303690a2e2dbc2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 85
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Virus2SpriteSheet_0
+      name: GreenVirusSpritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06291d73da6d7cf4ebf0b0dc12d26036
-      internalID: 1554108490
+      spriteID: ed6ed162803292149bb43396e0b141eb
+      internalID: -234684531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_1
+      name: GreenVirusSpritesheet_1
       rect:
         serializedVersion: 2
         x: 90
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0389f183344ffef45a1137a9eb76521c
-      internalID: 89728948
+      spriteID: 9c01d7032eeec4246b7defae9f2c1426
+      internalID: -1739788608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_2
+      name: GreenVirusSpritesheet_2
       rect:
         serializedVersion: 2
         x: 180
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b692447e24a59f347982044fd78ee0b6
-      internalID: -556161989
+      spriteID: 5ee29757edc11f74bb2a00be8932afce
+      internalID: 917737392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_3
+      name: GreenVirusSpritesheet_3
       rect:
         serializedVersion: 2
         x: 270
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56e05dc44dba78f4fb8518d02e263441
-      internalID: -1307395180
+      spriteID: 960fdc18fde3a5b4ba2ae1b1c0985dba
+      internalID: -131801703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_4
+      name: GreenVirusSpritesheet_4
       rect:
         serializedVersion: 2
         x: 360
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ccf5ba28985c3449a04f23503dd9795
-      internalID: -797115347
+      spriteID: 2840f49017bc22a40aa9e048444c60ca
+      internalID: 1091761479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_5
+      name: GreenVirusSpritesheet_5
       rect:
         serializedVersion: 2
         x: 450
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55417a8d7ef7e1748bad761b3d9404d8
-      internalID: -1933357155
+      spriteID: db3cf827add7f6a4c8911a7e2d0201ce
+      internalID: 58627773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_6
+      name: GreenVirusSpritesheet_6
       rect:
         serializedVersion: 2
         x: 540
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00e572b867a4154d84de39a4fd27dd6
-      internalID: -1223871173
+      spriteID: 6a153c6e66296b94ebd834606232a87c
+      internalID: -961114120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_7
+      name: GreenVirusSpritesheet_7
       rect:
         serializedVersion: 2
         x: 630
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92298c47654372644871e9526cb7652b
-      internalID: 2064591809
+      spriteID: be9e021a1eff6f544bd4830fef41caa7
+      internalID: -1549772700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_8
+      name: GreenVirusSpritesheet_8
       rect:
         serializedVersion: 2
         x: 720
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75cc2f002f26e2b4580b136d60b1c4e7
-      internalID: 2035915334
+      spriteID: 5b6fd0b4ed4d8f5438e61ecb0d9ffd66
+      internalID: -1088505360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_9
+      name: GreenVirusSpritesheet_9
       rect:
         serializedVersion: 2
         x: 810
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1daeb3970911e804f9d826e7f9161bc1
-      internalID: -1885029855
+      spriteID: 61e31ff9a93ccc243996d2840ee12995
+      internalID: -1210591077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_10
+      name: GreenVirusSpritesheet_10
       rect:
         serializedVersion: 2
         x: 900
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b8a2aaf90482284f85c2ac453b103d8
-      internalID: -1674811676
+      spriteID: 3855fe21a6e220f47b9869cc918c5732
+      internalID: 190908511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_11
+      name: GreenVirusSpritesheet_11
       rect:
         serializedVersion: 2
         x: 990
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e33147651c6940c44a6dffab60671073
-      internalID: 56451477
+      spriteID: edd2e8d17db46f74e9a5dc951796c96d
+      internalID: -1210648938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_12
+      name: GreenVirusSpritesheet_12
       rect:
         serializedVersion: 2
         x: 1080
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b6f823cf84f73439d10f03eb183bf6
-      internalID: 482375387
+      spriteID: fd7820960eecdb649b796f0a2b53a7be
+      internalID: 900013668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_13
+      name: GreenVirusSpritesheet_13
       rect:
         serializedVersion: 2
         x: 1170
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c9292774e105e488aab685ba2bb2e4
-      internalID: 826564226
+      spriteID: 1e8f42815bee5a148813d553ec417a8d
+      internalID: -24512514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_14
+      name: GreenVirusSpritesheet_14
       rect:
         serializedVersion: 2
         x: 1260
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eded3d2b56cac5c46bd1c7e7f2c2396b
-      internalID: 1631191698
+      spriteID: 94ef88663abb0ca4eae2e5d3dc879e5a
+      internalID: 432993469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_15
+      name: GreenVirusSpritesheet_15
       rect:
         serializedVersion: 2
         x: 1350
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8736cecec7e85074494db2cd87cda23e
-      internalID: 79713528
+      spriteID: 31b17b276419e064395bf108323b8e23
+      internalID: 188294325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_16
+      name: GreenVirusSpritesheet_16
       rect:
         serializedVersion: 2
         x: 1440
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b617c4240f856e46b90908ed2fbb3b6
-      internalID: -869564366
+      spriteID: eca1ebe26775b7e48980521d11b859a3
+      internalID: 1027715753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_17
+      name: GreenVirusSpritesheet_17
       rect:
         serializedVersion: 2
         x: 1530
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dc8459cc2b177a4f806640039326e6b
-      internalID: -166819197
+      spriteID: 2a00513bdfa83d34790823e107100ef7
+      internalID: -693252372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_18
+      name: GreenVirusSpritesheet_18
       rect:
         serializedVersion: 2
         x: 1620
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13dd421d1af12d543b1c9b0a2b554618
-      internalID: 49068449
+      spriteID: 8fc9f6605fda693429eb057b8135a87b
+      internalID: -1171928249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_19
+      name: GreenVirusSpritesheet_19
       rect:
         serializedVersion: 2
         x: 1710
@@ -536,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ed8935d477341646a405e16afacb76e
-      internalID: -782144697
+      spriteID: 4392e160604b82247957b2d3ce789dab
+      internalID: -831188315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_20
+      name: GreenVirusSpritesheet_20
       rect:
         serializedVersion: 2
         x: 1800
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f78f2e0a01911534e96881fd055d2e56
-      internalID: -1754792683
+      spriteID: 54b9964ff9afe65429d43d0bde0bfa2a
+      internalID: -1610850967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_21
+      name: GreenVirusSpritesheet_21
       rect:
         serializedVersion: 2
         x: 1890
@@ -578,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a98644428f3873b41a8e039cc7ea86c4
-      internalID: 2113057627
+      spriteID: 30181385850695248b5e89d46a49bbed
+      internalID: 1908447081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_22
+      name: GreenVirusSpritesheet_22
       rect:
         serializedVersion: 2
         x: 1980
@@ -599,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a0203318e112e42a1479048f32b2d4
-      internalID: -1479150512
+      spriteID: b59a89aacb4afa241a6e710c2a76fd8f
+      internalID: 342113676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Virus2SpriteSheet_23
+      name: GreenVirusSpritesheet_23
       rect:
         serializedVersion: 2
         x: 2070
@@ -620,8 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b650bb920b121ae44a003bb36709636d
-      internalID: 1879360893
+      spriteID: 45f4e11a0a90fe34ab651e1650ff2bd2
+      internalID: -175929005
       vertices: []
       indices: 
       edges: []
@@ -637,30 +637,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Virus2SpriteSheet_0: 1554108490
-      Virus2SpriteSheet_1: 89728948
-      Virus2SpriteSheet_10: -1674811676
-      Virus2SpriteSheet_11: 56451477
-      Virus2SpriteSheet_12: 482375387
-      Virus2SpriteSheet_13: 826564226
-      Virus2SpriteSheet_14: 1631191698
-      Virus2SpriteSheet_15: 79713528
-      Virus2SpriteSheet_16: -869564366
-      Virus2SpriteSheet_17: -166819197
-      Virus2SpriteSheet_18: 49068449
-      Virus2SpriteSheet_19: -782144697
-      Virus2SpriteSheet_2: -556161989
-      Virus2SpriteSheet_20: -1754792683
-      Virus2SpriteSheet_21: 2113057627
-      Virus2SpriteSheet_22: -1479150512
-      Virus2SpriteSheet_23: 1879360893
-      Virus2SpriteSheet_3: -1307395180
-      Virus2SpriteSheet_4: -797115347
-      Virus2SpriteSheet_5: -1933357155
-      Virus2SpriteSheet_6: -1223871173
-      Virus2SpriteSheet_7: 2064591809
-      Virus2SpriteSheet_8: 2035915334
-      Virus2SpriteSheet_9: -1885029855
+      GreenVirusSpritesheet_0: -234684531
+      GreenVirusSpritesheet_1: -1739788608
+      GreenVirusSpritesheet_10: 190908511
+      GreenVirusSpritesheet_11: -1210648938
+      GreenVirusSpritesheet_12: 900013668
+      GreenVirusSpritesheet_13: -24512514
+      GreenVirusSpritesheet_14: 432993469
+      GreenVirusSpritesheet_15: 188294325
+      GreenVirusSpritesheet_16: 1027715753
+      GreenVirusSpritesheet_17: -693252372
+      GreenVirusSpritesheet_18: -1171928249
+      GreenVirusSpritesheet_19: -831188315
+      GreenVirusSpritesheet_2: 917737392
+      GreenVirusSpritesheet_20: -1610850967
+      GreenVirusSpritesheet_21: 1908447081
+      GreenVirusSpritesheet_22: 342113676
+      GreenVirusSpritesheet_23: -175929005
+      GreenVirusSpritesheet_3: -131801703
+      GreenVirusSpritesheet_4: 1091761479
+      GreenVirusSpritesheet_5: 58627773
+      GreenVirusSpritesheet_6: -961114120
+      GreenVirusSpritesheet_7: -1549772700
+      GreenVirusSpritesheet_8: -1088505360
+      GreenVirusSpritesheet_9: -1210591077
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
