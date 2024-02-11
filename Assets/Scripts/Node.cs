@@ -15,6 +15,17 @@ public class Node : MonoBehaviour
         CheckAvailableDirection(Vector2.down);
         CheckAvailableDirection(Vector2.left);
         CheckAvailableDirection(Vector2.right);
+        
+        /*string directions = "";
+        foreach (var direction in availableDirections)
+        {
+            directions += direction;
+            directions += " | ";
+            
+        }
+
+        directions += availableDirections.Count;
+        Debug.LogWarning(directions, gameObject);*/
     }
 
     private void CheckAvailableDirection(Vector2 directionToCheck)

@@ -2,33 +2,37 @@ using UnityEngine;
 
 public class GhostChase : GhostBehavior
 {
-    public void OnDisable()
+    private void OnDisable()
     {
         ghost.scatterBehaviour.Enable();
     }
-    
-    public void OnTriggerEnter2D(Collider2D other)
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        var node = other.GetComponent<Node>();
+        Node node = other.GetComponent<Node>();
 
-        if (node != null && this.enabled && !ghost.frightenedBehavior.enabled)
+        // Do nothing while the ghost is frightened
+        if (node != null && enabled && !ghost.frightenedBehavior.enabled)
         {
-            var direction = Vector2.zero;
-            var minDistance = float.MaxValue;
+            Vector2 direction = Vector2.zero;
+            float minDistance = float.MaxValue;
 
+            // Find the available direction that moves closet to pacman
             foreach (Vector2 availableDirection in node.availableDirections)
             {
-                Vector3 newPosition = this.transform.position + new Vector3(availableDirection.x, availableDirection.y, 0.0f);
-                float distance = (this.ghost.target.position - newPosition).sqrMagnitude;
+                // If the distance in this direction is less than the current
+                // min distance then this direction becomes the new closest
+                Vector3 newPosition = transform.position + new Vector3(availableDirection.x, availableDirection.y);
+                float distance = (ghost.target.position - newPosition).sqrMagnitude;
 
                 if (distance < minDistance)
                 {
                     direction = availableDirection;
                     minDistance = distance;
                 }
-
-                this.ghost.movementController.SetDirection(direction);
             }
+
+            ghost.movementController.SetDirection(direction);
         }
     }
 }

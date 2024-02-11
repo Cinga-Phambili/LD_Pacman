@@ -62,6 +62,7 @@ public class Movement : MonoBehaviour
     {
         if (forced || !Occupied(direction))
         {
+            //Debug.Log("Setting direction to " + direction);
             this.direction = direction;
             nextDirection = Vector2.zero;
         }

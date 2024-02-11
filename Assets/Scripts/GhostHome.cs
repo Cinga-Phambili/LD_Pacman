@@ -8,11 +8,13 @@ public class GhostHome : GhostBehavior
 
     private void OnEnable()
     {
+        
         StopAllCoroutines();
     }
 
     public void OnDisable()
     {
+        Debug.Log("Disabling Home.");
         if (this.gameObject.activeSelf)
         {
             StartCoroutine(ExitTransition());
